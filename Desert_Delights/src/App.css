@@ -1,0 +1,44 @@
+
+:root {
+    --primary-green: #4a8d4e;
+    --light-green: #f0f7f0;
+} 
+
+body {
+    background-color: var(--light-green);
+    color: darkslategrey;
+}
+
+.navbar-custom {
+    background-color: rgb(168, 200, 156);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero-section {
+    background-color: white;
+    padding: 4rem 0;
+}
+
+.product-card {
+    background: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-custom {
+    background-color: var(--primary-green);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #3a7a3e;
+    color: white;
+}
