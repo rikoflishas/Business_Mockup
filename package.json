@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rikoflishas.github.io/Business_Mockup",
   "name": "desert_delights",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
@@ -31,7 +33,4 @@
     "globals": "^16.3.0",
     "vite": "^7.0.4"
   }
-  
-
-
 }
